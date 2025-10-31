@@ -10,3 +10,7 @@ dependencies = [
     "polars>=1.35.1",
     "scipy>=1.16.3",
 ]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
